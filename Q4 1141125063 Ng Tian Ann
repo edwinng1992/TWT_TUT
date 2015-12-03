@@ -1,0 +1,51 @@
+<!-- Ng Tian Ann 1141125063>
+<html>
+<head></head>
+  <body>
+    <form id="Form1">
+    <table border="0">
+        <tr><td><b>What kind of car would you like to buy?</b></td></tr>
+        <tr>
+        </td align="middle">
+          <input type="radio" name="car" value="Proton" checked> Proton
+          <input type="radio" name="car" value="Honda" > Honda
+          <input type="radio" name="car" value="Farrari" > Farrari
+          <input type="radio" name="car" value="Ford" > Ford
+        </td></tr>
+        
+        <tr><td><b>What color do you want on your car?</b></td></tr>
+        <tr>
+        <td align="middle">
+          <select>
+            <option value="white">White</option>
+            <option value="red">Red</option>
+            <option value="black">Black</option>
+            <option value="blue">Blue</option>
+          </select>
+          Other:<input type="text" name="other">
+        </td>
+        </tr>
+         
+        <tr><td><b>Enter explainlation of your preferred car:</b></td></tr>
+        <tr><td align="middle">
+          <textarea rows="5" cols="50"></textarea>
+        </td></tr>
+        
+        <tr><td align="middle"><b>Tell us how to get in touch with you:</b></td></tr>
+        <tr><td align="middle">Name &nbsp <input type="text" name="name"></td></tr>
+        <tr><td align="middle">E-mail &nbsp <input type="text" name="email"></td></tr>
+        <tr><td align="middle">Tel &nbsp <input type="text" name="tel"></td></tr>
+        <tr><td align="middle">FAX &nbsp <input type="text" name="fax"></td></tr>
+        
+        <tr><td align="middle"><input type="checkbox" name="asap" value="asap">Please contact meas soon as possible regarding this matter</td></tr>
+        <tr>
+        <td><input type="submit" value="Send"><input type="button" onclick="myFunction()" value="Clear"></td>
+        </tr>
+      <table>
+    </form>
+    <script>
+    function myFunction() 
+    { document.getElementById("myForm").reset(); }
+    </script>
+  </body>
+</html>
